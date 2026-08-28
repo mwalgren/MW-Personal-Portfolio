@@ -15,9 +15,9 @@
         <p> [MW_01] MICHAEL WALGREN </p>
         <ul>
             <li> <a href= "#"> HOME </a>  </li>
-            <li> <a href= "#about"> ABOUT </a> </li>
-            <li> <a href= "#"> EXPERIENCE </a> </li>
-            <li> <a href= "#"> SKILLS  </a> </li>
+            <li> <a href= "#about-section"> ABOUT </a> </li>
+            <li> <a href= "#projects-section"> PROJECTS </a> </li>
+            <li> <a href= "#contact-section"> CONTACT  </a> </li>
         </ul>
 
     </nav>
@@ -69,11 +69,11 @@
         </div>
 
         <div class="hero-cta">
-            <a href="#" class="button-green">
+            <a href="#contact-section" class="button-green">
                 GET_IN_TOUCH()
             </a>
 
-            <a href="#" class="button">
+            <a href='assets/Michael-Walgren-Resume.pdf' download class="button" target="_blank">
                 DOWNLOAD_RESUME()
             </a>
 
@@ -101,11 +101,16 @@
 
     </section>
 
-    <section class="about">
+    <section class="about" id="about-section">
         <div class="about-content">
             <h2> ABOUT_ME</h2>
             <p>lorem ipsum dolor sit amet consectetur adipiscing elit sit distinctio do et qui ea vel rerum quis sed officia qui elit rerum exercitation dolor qui est id consectetur harum irure dignissimos deserunt sed molestias dolorum irure irure fugiat laboris dolor dolore incididunt iusto voluptas pariatur minus incididunt molestias quo veniam</p>
-            <a href="#"> > MORE ABOUT ME [+]  </a>
+                    <details class="about-details">
+                        <summary id='about-summary'>
+                        > MORE ABOUT ME
+                        </summary>
+                        lorem ipsum dolor sit amet consectetur adipiscing elit fugiat qui tempore nostrud quis non occaecat in est do dolore est culpa accusamus minim cillum nulla enim praesentium accusamus sit repellendus vel sint imperdiet fugiat et esse quidem expedita anim culpa dolor est aliquip veniam dolorem fugiat dignissimos excepteur labore ullamco 
+                    </details>
         </div>
 
         <div class="skills-grid">
@@ -149,7 +154,7 @@
     </section>
 
 
-    <section class="featured-projects-grid">
+    <section class="featured-projects-grid" id="projects-section">
         <h2> FEATURED_PROJECTS </h2>
 
         <div class="project-grid">
@@ -165,7 +170,7 @@
                 <p>A homelab experiment to self-host as many open source tools as possible, reducing reliance on proprietary software.</p>
 
                <a href="/projects/marketing-dashboard">
-                > View project
+                View project
                 </a>
 
             </article>
@@ -182,7 +187,7 @@
                 <p>A self-hosted STT/TTS pipeline using a Raspberry Pi 4, fast-whisper & OpenAI API connectivity for online or offline voice assistance.</p>
 
                <a href="/projects/glarbus">
-                > View project
+                View project
                 </a>
 
             </article>
@@ -195,12 +200,13 @@
                     <li>JavaScript</li>
                 </ul>
 
-                <h3> MARKETING DASHBOARD </h3>
-                <p>Custom marketing dashboard that consolidates multi-channel 
-               performance data to surface insights and drive decisions.</p>
+                <h3> PERSONAL PORTFOLIO </h3>
+                <p>Hand-coded portfolio built without frameworks or build tools, 
+                    featuring live commit feeds from GitHub API across active repositories.
+                </p>
                 
                <a href="/projects/marketing-dashboard">
-                > View project
+                View project
                 </a>
 
             </article>
@@ -215,7 +221,7 @@
         <div class="all-ed">
             <img src="assets/education-svgrepo-com.svg" alt="" width="96" height="96" />
             <div class="comp-sci">
-                <h3> SOFTWARE ENGINEERING </h3>
+                <h3> SOFTWARE_ENGINEERING </h3>
                 <p>ASSOCIATE DEGREE FOR TRANSFER</p>
                 <p>San Diego Mesa College, 2027</p>
             </div>
@@ -237,7 +243,7 @@
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact-section">
 
         <div class="contact-info">
 
@@ -274,7 +280,7 @@
     </section>
 
     <footer class="footer">
-        <p> &copy; Made by hand. 2027 Michael Walgren. All rights reserved. </p>
+        <p> &copy; Programmed by hand. 2026 Michael Walgren. All rights reserved. </p>
     </footer>
 
 </body>

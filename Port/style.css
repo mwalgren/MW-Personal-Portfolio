@@ -495,12 +495,22 @@ details[open] summary::after {
         font-size: 2rem;
     }
 
+    .hero-cta a{
+        margin-bottom: 1rem;
+    }
+
     .main-sub { 
         display: block;
     }
 
     .all-ed {
         grid-template-columns: 1fr;
+        
+    }
+    .focus-area {
+        border-left: none;
+        padding-left: 0;
+        border-top: 1px solid var(--green-dim);
     }
 
     .contact {
@@ -511,7 +521,6 @@ details[open] summary::after {
 
     .system-log {
         border-left: none;
-        padding-left: 0;
         border-top: 1px solid var(--green-dim);
     }
 

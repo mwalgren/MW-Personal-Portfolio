@@ -483,7 +483,8 @@ details[open] summary::after {
     }
 
     .hero-section {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     body {

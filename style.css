@@ -451,6 +451,11 @@ details[open] summary::after {
         flex-direction: column;
     }
 
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .about > div {
         width: 100%;
     }

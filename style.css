@@ -490,6 +490,7 @@ details[open] summary::after {
     .hero-section {
         display: grid;
         grid-template-columns: 1fr;
+        padding: 1rem;
     }
 
     body {
